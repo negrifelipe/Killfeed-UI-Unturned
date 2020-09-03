@@ -60,12 +60,7 @@ namespace F.KillFeed
                 }
             }
         }
-
-        private void OnPlayerDisconnected(UnturnedPlayer player)
-        {
-            EffectManager.askEffectClearByID(32479, player.CSteamID);
-        }
-
+        
         protected override void Unload()
         {
             UnturnedPlayerEvents.OnPlayerDeath -= OnPlayerDeath;
