@@ -23,7 +23,6 @@ namespace F.KillFeed
             Logger.Log("F.Plugins Discord: https://discord.gg/4FF2548", ConsoleColor.Yellow);
 
             UnturnedPlayerEvents.OnPlayerDeath += OnPlayerDeath;
-            U.Events.OnPlayerDisconnected -= OnPlayerDisconnected;
         }
 
         private void OnPlayerDeath(UnturnedPlayer player, EDeathCause cause, ELimb limb, Steamworks.CSteamID murderer)
@@ -64,7 +63,6 @@ namespace F.KillFeed
         protected override void Unload()
         {
             UnturnedPlayerEvents.OnPlayerDeath -= OnPlayerDeath;
-            U.Events.OnPlayerDisconnected -= OnPlayerDisconnected;
         }
     }
 }
