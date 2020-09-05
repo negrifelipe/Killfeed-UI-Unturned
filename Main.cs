@@ -47,7 +47,7 @@ namespace F.KillFeed
             {
                 if (limb == ELimb.SKULL)
                 {
-                    EffectManager.sendUIEffect(32479, 312, true, UnturnedPlayer.FromCSteamID(murderer).CharacterName + " <color=lime>[" + UnturnedPlayer.FromCSteamID(murderer).Health.ToString() + " HP]</color> " + UnturnedPlayer.FromCSteamID(murderer).Player.equipment.asset.itemName.ToString() + " [HS]</color> " + player.DisplayName);
+                    EffectManager.sendUIEffect(32479, 312, true, UnturnedPlayer.FromCSteamID(murderer).CharacterName + " <color=lime>[" + UnturnedPlayer.FromCSteamID(murderer).Health.ToString() + " HP]</color> " + UnturnedPlayer.FromCSteamID(murderer).Player.equipment.asset.itemName.ToString() + " <color=lime>[HS]</color> " + player.DisplayName);
                 }
                 else if (limb == ELimb.LEFT_ARM || limb == ELimb.LEFT_BACK || limb == ELimb.LEFT_FOOT || limb == ELimb.LEFT_FRONT || limb == ELimb.LEFT_HAND || limb == ELimb.LEFT_LEG || limb == ELimb.RIGHT_ARM || limb == ELimb.RIGHT_BACK || limb == ELimb.RIGHT_FOOT || limb == ELimb.RIGHT_FRONT || limb == ELimb.RIGHT_HAND || limb == ELimb.RIGHT_LEG || limb == ELimb.SPINE)
                 {
