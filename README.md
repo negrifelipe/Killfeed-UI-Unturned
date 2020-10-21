@@ -1,5 +1,6 @@
 # Killfeed-UI-Unturned
-![Discord](https://img.shields.io/discord/742861338233274418?label=Discord&logo=Discord)
+![Discord](https://img.shields.io/discord/742861338233274418?label=Discord&logo=Discord) [![Github All Releases](https://img.shields.io/github/downloads/01-Feli/Killfeed-UI-Unturned/total.svg)]()
+
 
 This shows you in real time the kills in the server using an UI
 
